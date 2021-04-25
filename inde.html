@@ -1,0 +1,47 @@
+<html>
+
+<head>
+</head>
+<style>
+    html {
+        overflow: hidden;
+        opacity: 1;
+        background-color: 232323;
+    }
+    
+    audio {
+        display: none;
+    }
+    
+    .center-screen {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        min-height: 100vh;
+        animation: fade 2s;
+    }
+    
+    @keyframes fade {
+        0% {
+            opacity: 0
+        }
+        100% {
+            opacity: 1
+        }
+    }
+</style>
+
+<div id="player">
+    <audio controls autoplay hidden="" src="movie_1.mp3" type="audio/mp3">your browser does not support Html5</audio>
+</div>
+
+<body class="center-screen ">
+
+
+    <img src="App Icon 1 transparent.png " width="500 " length="500 ">
+
+</body>
+
+</html>
