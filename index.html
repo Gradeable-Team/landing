@@ -1,6 +1,7 @@
 <html>
 
 <head>
+    <title>Gradeable</title>
 </head>
 <style>
     html {
@@ -16,13 +17,28 @@
         align-items: center;
         text-align: center;
         min-height: 100vh;
-        animation: fadein 5s;
+        animation: fade 2s;
+    }
+    
+    @keyframes fade {
+        0% {
+            opacity: 0
+        }
+        100% {
+            opacity: 1
+        }
     }
 </style>
 
-<body class="center-screen">
+<div id="player">
+    <audio controls autoplay hidden="" src="movie_1.mp3" type="audio/mp3">your browser does not support Html5</audio>
+</div>
 
-    <img src="App Icon 1 transparent.png" width="500" length="500">
+<body class="center-screen ">
+
+
+    <img src="App Icon 1 transparent.png " width="500 " length="500 ">
+
 </body>
 
 </html>
